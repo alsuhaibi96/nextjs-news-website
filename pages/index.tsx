@@ -1,5 +1,7 @@
 
+import Header from "@/components/Header";
 import ArticleList from "@/components/ArticleList";
+
 type Article ={
   id:number,
   title:string,
@@ -11,7 +13,8 @@ type MainProps={
 export default function Home({articles}:MainProps) {
   return (
   <main>
-    <div>
+    <div >
+    <Header/>
       <ArticleList articles={articles}/>
     </div>
   </main>
