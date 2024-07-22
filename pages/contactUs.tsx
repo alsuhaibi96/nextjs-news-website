@@ -5,7 +5,7 @@ export const contactUs = () => {
   return (
     <>
       <div className="container flex flex-col md:flex-row justify-between gap-3 pt-14 my-8">
-        <div className='w-2/5'>
+        <div className='w-1/2'>
           <h1 className='font-bold text-3xl'>
             Let us Talk
           </h1>
@@ -46,11 +46,12 @@ export const contactUs = () => {
                 <textarea rows={8} className="peer block min-h-[auto] w-full rounded border bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary " placeholder="John Due" id="name"/>
 
               </div>
+              <button className="mt-4 w-40  bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition duration-300">Submit</button>
 
          
         </div>
-        <div className='w-3/5'>
-            <Image className="" src="/Screenshot from 2024-07-22 02-57-57.png" alt="Your Company" width={500} height={300} />
+        <div className='w-1/2'>
+            <Image className="" src="/Screenshot from 2024-07-22 02-57-57.png" alt="Your Company" width={500} height={600} />
           </div>
         </div>
       </>
